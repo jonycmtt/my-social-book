@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "userName": "JohnDoe123",
+    "userEmail": "john.doe@example.com",
+    "post": "Excited to start a new coding project today!",
+    "like": 25,
+    "comment": 12,
+    "date": "2023-10-26"
+  },
+  {
+    "id": 2,
+    "userName": "TechGeek22",
+    "userEmail": "tech.geek@example.com",
+    "post": "Just upgraded my PC setup. Check out the new specs!",
+    "like": 32,
+    "comment": 8,
+    "date": "2023-10-25"
+  },
+  {
+    "id": 3,
+    "userName": "FitnessFanatic",
+    "userEmail": "fitness.fan@example.com",
+    "post": "Completed my morning run. Feeling energized!",
+    "like": 18,
+    "comment": 5,
+    "date": "2023-10-24"
+  },
+  {
+    "id": 4,
+    "userName": "BookWorm87",
+    "userEmail": "book.worm@example.com",
+    "post": "Started a new book. Can't put it down!",
+    "like": 42,
+    "comment": 15,
+    "date": "2023-10-23"
+  },
+  {
+    "id": 5,
+    "userName": "TravelExplorer",
+    "userEmail": "traveler@example.com",
+    "post": "Just booked tickets for my next adventure. Any travel tips?",
+    "like": 30,
+    "comment": 10,
+    "date": "2023-10-22"
+  },
+  {
+    "id": 6,
+    "userName": "FoodieDelight",
+    "userEmail": "foodie@example.com",
+    "post": "Tried a new recipe today. It turned out amazing!",
+    "like": 28,
+    "comment": 7,
+    "date": "2023-10-21"
+  },
+  {
+    "id": 7,
+    "userName": "GamerX",
+    "userEmail": "gamer@example.com",
+    "post": "Just hit a new high score in my favorite game. Can anyone beat it?",
+    "like": 35,
+    "comment": 14,
+    "date": "2023-10-20"
+  },
+  {
+    "id": 8,
+    "userName": "ArtisticSoul",
+    "userEmail": "artist@example.com",
+    "post": "Working on a new art project. Feeling inspired!",
+    "like": 20,
+    "comment": 6,
+    "date": "2023-10-19"
+  },
+  {
+    "id": 9,
+    "userName": "MusicLover123",
+    "userEmail": "music.lover@example.com",
+    "post": "Discovered a great new band. Any music recommendations?",
+    "like": 25,
+    "comment": 11,
+    "date": "2023-10-18"
+  },
+  {
+    "id": 10,
+    "userName": "GreenThumb",
+    "userEmail": "gardener@example.com",
+    "post": "Harvested fresh vegetables from my garden today!",
+    "like": 15,
+    "comment": 4,
+    "date": "2023-10-17"
+  },
+  {
+    "id": 11,
+    "userName": "DIYEnthusiast",
+    "userEmail": "diy@example.com",
+    "post": "Completed a DIY home improvement project. Loving the results!",
+    "like": 22,
+    "comment": 9,
+    "date": "2023-10-16"
+  },
+  {
+    "id": 12,
+    "userName": "Fashionista",
+    "userEmail": "fashionista@example.com",
+    "post": "Experimenting with new fashion trends. What's your go-to style?",
+    "like": 26,
+    "comment": 13,
+    "date": "2023-10-15"
+  }
+]
