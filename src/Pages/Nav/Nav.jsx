@@ -3,6 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 const Nav = () => {
   //javascrpt likhar jayga
 
+  const isDashboard = true;
+
   const navLinks = (
     <>
       <li>
@@ -48,6 +50,20 @@ const Nav = () => {
           About
         </NavLink>
       </li>
+      {/* control dashboard */}
+      {
+        isDashboard && <li>
+        <NavLink
+          to="/dashboard/user"
+          className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+          }
+        >
+          Dashboard
+        </NavLink>
+      </li>
+      }
+      
     </>
   );
 

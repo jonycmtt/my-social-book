@@ -1,10 +1,19 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
+
+  const navigate = useNavigate()
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('hello from');
+    navigate('/')
+    
+  }
   return (
     <div className="my-20 flex justify-center items-center">
       <div className="card w-full max-w-xl shadow-2xl bg-base-100">
-        <form className="card-body">
+        <form  onSubmit={handleSubmit} className="card-body">
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>

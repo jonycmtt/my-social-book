@@ -1,11 +1,22 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 const Register = () => {
+
+  const navigate = useNavigate()
+
+  const handleRegister = event => {
+    event.preventDefault();
+    navigate('/login')
+    
+  }
+
+
+
     return (
         <div className="my-20 flex justify-center items-center">
         <div className="card w-full max-w-xl shadow-2xl bg-base-100">
-          <form className="card-body">
+          <form onSubmit={handleRegister} className="card-body">
             <div className="form-control">
               <label className="label">
                 <span className="label-text">Your Name</span>
@@ -40,7 +51,7 @@ const Register = () => {
               />
             </div>
             <div className="form-control mt-6">
-              <button className="btn btn-primary">Login</button>
+              <button className="btn btn-primary">Register</button>
             </div>
           </form>
           <div className="pb-4">
